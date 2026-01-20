@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murat Deniz Demir | MDD_SEC</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="welcome-screen">
+        <div class="welcome-content">
+            <div id="typing-text"></div>
+            <p class="access-text">AUTHORIZED ACCESS ONLY - MDD_SEC OS v2.0</p>
+            <button onclick="startSite()" class="start-btn">INITIALIZE_SESSION</button>
+        </div>
+    </div>
+
+    <header>
+        <nav class="container">
+            <div class="logo" onclick="navigateTo('home')">MDD_SEC<span>.sys</span></div>
+            <ul>
+                <li><a href="javascript:void(0)" onclick="navigateTo('projects')">/Projects</a></li>
+                <li><a href="https://github.com/DenizGoksu" target="_blank">/GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/murat-deniz-demir-693181252/" target="_blank">/LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="home-page" class="page container">
+        <section class="about-terminal">
+            <div class="terminal-bar">
+                <div class="btns"><span class="r"></span><span class="y"></span><span class="g"></span></div>
+                <div class="t-title">mdd_researcher — whoami</div>
+            </div>
+            <div class="terminal-body">
+                <p class="t-cmd">cat profile.log</p>
+                <p>
+                    <strong>Siber Güvenlik Uzman Adayı & Yazılım Geliştirici.</strong><br><br>
+                    Suricata üzerinde IDS/IPS kural geliştirme, ağ trafiği analizi ve Python tabanlı güvenlik otomasyonları konusunda pratik deneyim sahibiyim. Splunk SIEM ekosisteminde gerçek zamanlı log analizi ve proaktif savunma mekanizmaları kurgulamaya odaklanıyorum. TryHackMe ve HackTheBox gibi platformlarda hem saldırı (Offensive) hem de savunma (Defensive) odaklı karmaşık senaryoları/CTF'leri düzenli olarak çözerek teknik becerilerimi güncel tutuyorum. Saldırgan metodolojilerini savunma stratejileriyle birleştirerek, analitik bakış açımı siber güvenlik ekiplerine değer katmak için kullanmayı hedefliyorum.
+                </p>
+                
+                <p class="t-cmd">ls --education</p>
+                <ul class="t-list">
+                    <li>• Handan Hayrettin Yelkikanat M.T.A.L - Web Geliştirme</li>
+                    <li>• İstanbul Ticaret Üniversitesi - Siber Güvenlik</li>
+                    <li>• İstanbul Üniversitesi - Web Tasarım ve Kodlama</li>
+                </ul>
+
+                <p class="t-cmd">finger mdd_researcher</p>
+                <ul class="t-list contact-list">
+                    <li><span class="t-label">Gmail:</span> <a href="mailto:dgoksu058@gmail.com">dgoksu058@gmail.com</a></li>
+                    <li><span class="t-label">LinkedIn:</span> <a href="https://www.linkedin.com/in/murat-deniz-demir-693181252/" target="_blank">muratdenizdemir</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <h2 class="section-label">ÖNE ÇIKAN PROJELER</h2>
+        <div class="project-grid" id="featured-grid"></div>
+    </div>
+
+    <div id="projects-page" class="page container hidden">
+        <h2 class="section-label">TÜM PROJELER</h2>
+        <div class="project-grid" id="all-grid"></div>
+    </div>
+
+    <div id="detail-page" class="page container hidden">
+        <button onclick="window.history.back()" class="back-btn"> << RETURN_TO_SYSTEM </button>
+        <div id="detail-content"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
