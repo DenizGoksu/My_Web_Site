@@ -3,7 +3,7 @@
 Bu repository, siber güvenlik projelerimi, teknik yetkinliklerimi ve siber savunma vizyonumu sergilediğim kişisel portfolyo sitemin kaynak kodlarını içermektedir.
 
 ## 🚀 Canlı Demo
-Siteyi buradan inceleyebilirsiniz: [[Linkinizi Buraya Yapıştırın]](https://denizgoksu.github.io/My_Web_Site/)
+Siteyi buradan inceleyebilirsiniz: [[Web_Site]](https://denizgoksu.github.io/My_Web_Site/)
 
 ## 🛠️ Teknik Özellikler
 - **Frontend:** Vanilla JS, CSS3 (Modern Terminal UI), HTML5.
